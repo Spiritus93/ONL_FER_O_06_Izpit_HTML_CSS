@@ -156,3 +156,16 @@ body {
 
     border-radius: 3px;
 }
+
+/* SOCIALS */
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials-image {
+    width: 19.5px;
+    height: 20.03px;
+    object-fit: contain;
+}
