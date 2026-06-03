@@ -49,3 +49,65 @@ body {
     color: var(--text-color);
     cursor: pointer;
 }
+
+/* MAIN SECTION */
+
+.main__banner {
+    min-height: 600px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 50px;
+
+    justify-content: center;
+    align-content: center;
+
+    position: relative;
+}
+
+.main__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    grid-row: 1 / 3;
+    grid-column: 1;
+
+    position: static;
+}
+
+.main__banner--title {
+    grid-column: 2;
+    grid-row: 1;
+
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    align-self: end;
+}
+
+.main__banner--title span {
+    color: #f56b8a;
+}
+
+.main__banner--description {
+    grid-column: 2;
+    grid-row: 2;
+
+    color: var(--text-color);
+    font-size: 24px;
+    align-self: start;
+}
+
+.main__banner-arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+}
+
+.arrows__down img {
+    width: 20px;
+}
