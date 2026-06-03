@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Izpit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<div class="container">
+    <header class="header">
+        <nav class="header__nav">
+            <img src="assets/Logo.svg" alt="Logo" class="header__logo">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item">about</li>
+                <li class="header__nav-list-item">experience</li>
+                <li class="header__nav-list-item">skill</li>
+                <li class="header__nav-list-item">portfolio</li>
+                <li class="header__nav-list-item">contact</li>
+            </ul>
+        </nav> <!-- e: header__nav -->
+    </header> <!-- e: header -->
+    <main class="main">
+        <div class="main__banner">
+            <img src="assets/hero-picture.png" alt="Avatar" class="main__avatar">
+            <h1 class="main__banner--title">John Smith</h1>
+            <p class="main__banner--description">I design and build things on the internet.</p>
+            <div class="main__banner-arrow">
+                <a href="#" class="btn arrows__down"><img src="assets/hero-arrow.png" alt="arrows down"></a>
+            </div>
+        </div> <!-- e: main__banner -->
+        <div class="secondary__banner">
+            <h2 class="secondary__banner-title">Contact</h2>
+            <p class="secondary__banner-description">I am currently seeking employment, so if you have a job or project offer, or if you need more information, please do not hesitate to contact me.</p>
+            <div class="secondary__banner-button">
+                <a href="#" class="btn btn-write__msg">Write Message</a>
+            </div>
+            <div class="socials">
+                <img class="socials-image" src="assets/github-icon.png" alt="github">
+                <img class="socials-image" src="assets/linkedin-icon.png" alt="linkdein">
+                <img class="socials-image" src="assets/instagram-icon.png" alt="instagram">
+                <img class="socials-image" src="assets/twitter-icon.png" alt="twitter">
+            </div> <!-- e: socials -->
+        </div> <!-- e: secondary__banner -->
+    </main> <!-- e: main -->
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p class="footer__copyright--item">John Smith - 2023</p>
+        </div> <!-- e: footer__copyright -->
+    </footer> <!-- e:footer -->
+</div> <!-- e: container -->
 </body>
 </html>
