@@ -169,3 +169,23 @@ body {
     height: 20.03px;
     object-fit: contain;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 25px 0;
+}
+
+.footer__copyright {
+    text-align: center;
+}
+
+.footer__copyright--item {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.footer__copyright--item span {
+    color: #f56b8a;
+}
