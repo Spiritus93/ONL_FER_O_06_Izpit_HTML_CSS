@@ -1,0 +1,21 @@
+/* GENERAL */
+
+:root {
+    --primary-color:#1F1F1F;
+    --secondary-color: #333333;
+    --text-color: #FFFFFF;
+    --button-color: #E65F78;
+    --text-nav-color: #4D5566;
+    --font: "Open Sans";
+}
+
+body {
+    background-color: var(--primary-color);
+    color: #F7F7F7;
+    font-family: var(--font), sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
